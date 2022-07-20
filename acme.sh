@@ -6895,9 +6895,9 @@ installOnline() {
     _branch="master"
   fi
 
-  target="$PROJECT/repository/archive/$_branch.tar.gz"
+  target="$PROJECT/repository/archive/$_branch.zip"
   _info "Downloading $target"
-  localname="$_branch.tar.gz"
+  localname="$_branch.zip"
   if ! _get "$target" >$localname; then
     _err "Download error."
     return 1
