@@ -6,7 +6,7 @@ PROJECT_NAME="acme.sh"
 
 PROJECT_ENTRY="acme.sh"
 
-PROJECT="https://github.com/acmesh-official/$PROJECT_NAME"
+PROJECT="https://gitee.com/cattomgitee/$PROJECT_NAME"
 
 DEFAULT_INSTALL_HOME="$HOME/.$PROJECT_NAME"
 
@@ -6895,7 +6895,7 @@ installOnline() {
     _branch="master"
   fi
 
-  target="$PROJECT/archive/$_branch.tar.gz"
+  target="$PROJECT/repository/archive/$_branch.tar.gz"
   _info "Downloading $target"
   localname="$_branch.tar.gz"
   if ! _get "$target" >$localname; then
